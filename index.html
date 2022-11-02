@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+    <!--  -->
+    <!-- Add the Internal CSS -->
+    <style>
+      /* Design the base of the page */
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-size: medium;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-weight: 400px;
+        line-height: 1.8em;
+        color: rgb(82, 116, 240);
+      }
+      /* Set the image position */
+      .MainImg,
+      .SSimg,
+      .TSimg {
+        position: relative;
+        opacity: 0.8;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      /*To set the text of the section */
+      .section {
+        text-align: center;
+        padding: 10px 25px;
+      }
+      /* Set th color in light section */
+      .section-light {
+        background-color: rgb(254, 202, 167);
+        color: rgb(180, 79, 15);
+      }
+      /* Set th color in medium section */
+      .section-medium {
+        background-color: white;
+        color: rgb(18, 18, 111);
+      }
+      /* Set the color in dark section */
+      .section-dark {
+        background-color: rgb(101, 186, 121);
+        color: rgb(1, 54, 10);
+      }
+      /* To design the parellex text */
+      .PText {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-weight: lighter;
+        text-transform: uppercase;
+      }
+      /* To design the border */
+      .PText .border {
+        background-color: #111;
+        color: #fff;
+        padding: 20px;
+      }
+      /* Transparent the text */
+      .btrans {
+        background-color: transparent;
+        color: rgb(47, 3, 3);
+      }
+
+      /* Set the main image height */
+      .MainImg {
+        background-image: url("Image/Temple.jpg");
+        min-height: 100%;
+      }
+
+      /* Set the Second Section image*/
+      .SSimg {
+        background: url(Image/Hindu-Culture.avif) left top,
+          url(Image/Indian-Culture2) center top,
+          url(Image/Indian-South-Culture) right top;
+        background-repeat: no-repeat;
+        min-height: 300px;
+        background-size: 426px, 450px, 450px;
+      }
+
+      /* Set the Third Section image*/
+      .TSimg {
+        background: url(Image/Tajmahal.jpg) left top,
+          url(Image/Hawa-mahal-jaipur.jpg) center top,
+          url(Image/India-Gate.jpg) right top;
+        background-repeat: no-repeat;
+        min-height: 300px;
+        background-size: 426px, 450px, 445px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main section -->
+    <div class="MainImg">
+      <div class="PText">
+        <span class="border"> Parallax Website </span>
+      </div>
+    </div>
+    <section class="section section-light">
+      <h2>India</h2>
+      <p>
+        India is a country in South Asia. It is the seventh-largest country by
+        area, the second-most populous country, and the most populous democracy
+        in the world. It shares borders with China, Pakistan, Nepal, Bhutan,
+        Bangladesh and Myanmar. To the south of India is the Indian Ocean, which
+        is the third-largest ocean in the world. The Himalayas are located to
+        the north of India. India has a long history that dates back thousands
+        of years. The two official languages of India are Hindi and English, but
+        there are many other languages spoken throughout the country including
+        Marathi, Bengali, Telugu and Gujarati. The main currency used in India
+        is the India rupee. India has a president and a prime minister, and
+        while the president is commander-in-chief of the armed forces and the
+        ceremonial head of state, the prime minister is responsible for
+        exercising the powers of the president. India is not only a country, Its
+        a beautiful land with lots of iconic & world famous building which shows
+        our culture and history. India have different food in different states.
+        From North to south, it also have differnt culture too.
+      </p>
+    </section>
+    <!-- Second section -->
+    <div class="SSimg">
+      <div class="PText">
+        <span class="btrans">Indian Culture</span>
+      </div>
+    </div>
+    <section class="section section-medium">
+      <h2>Indian Culture</h2>
+      <p>
+        Indian culture and traditions are something which has now become
+        renowned all across the world. We all refer to customs and traditions of
+        India as something very diverse and unique. Indian culture is full of
+        several unique customs and traditions, which outsiders might find
+        intriguing. Most of these originate from the Ancient Indian scriptures
+        and texts, which have dictated the way of life in India for thousands of
+        years. India also sees a large number of festivals, mainly because of
+        the prevalence of diverse religions and groups.In India, there exists
+        the concept of a joint family, wherein the entire family (parents, wife,
+        children and in some cases, relatives) all live together.
+      </p>
+    </section>
+    <!-- Define third section -->
+    <div class="TSimg">
+      <div class="PText">
+        <span class="btrans"> Famous Historical Places In India </span>
+      </div>
+    </div>
+    <section class="section section-dark">
+      <h2>Famous Historical Places In India</h2>
+      <p>
+        There are several stunning historical monuments in India across the
+        length and breadth of the country. Aside from the rich heritage,
+        culture, and architecture, the land is decorated with many forts,
+        palaces, archaeological ruins, temples, and churches.
+      </p>
+      <p>
+        The Taj Mahal is one of the seven wonders of the world and is considered
+        to be the most popular tourist attraction in the country in addition to
+        being one of the most important historical monuments in India. A symbol
+        of love, the Taj was built by Mughal Emperor Shah Jahan for his queen
+        Mumtaz.
+      </p>
+      <p>
+        The All India War Memorial, popularly known as the India Gate, is a war
+        memorial located in New Delhi. It is dedicated to the 82,000 soldiers,
+        both Indian and British, who died during the First World War and the
+        Third Anglo-Afghan War.
+      </p>
+    </section>
+    <!-- Final section -->
+    <div class="MainImg">
+      <div class="PText">
+        <span class="border"> Parallax Website </span>
+      </div>
+    </div>
+  </body>
+</html>
